@@ -23,7 +23,7 @@ public class a1tryClass {
         utilities.sendKeys(By.id("password"),"isthis34892@#");
         utilities.sendKeys(By.id("confirmPassword"),"isthis34892@#");
         utilities.click(By.cssSelector("button.ant-btn-primary"));
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         utilities.sendKeys(By.id("email"),email);
         utilities.sendKeys(By.id("password"),"isthis34892@#");
         utilities.click(By.cssSelector("div.ant-flex >button.ant-btn-primary"));
